@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*side bar*/
+
+.side-bar{
+    width:260px ;
+    height: 100vh;
+    background-color: #fbfbfb;
+    position: fixed;
+}
+
+.logo{
+    border-bottom: 1px solid grey;
+}
+
+
+ .logo h3{
+     font-size: 25px;
+     padding-left: 25px;
+     padding-top: 15px;
+ }
+
+.info{
+ margin-top: 50px;
+ margin-left:30% ;
+
+}
+
+ .circle{
+     width:50px ;
+     height:50px ;
+     border-radius:50% ; 
+     border: 2px solid #ff4e6a;
+ }
+
+ .titre{
+     justify-content: center;
+     margin-top: 10px;
+     padding-top: 5px;
+ }
+
+ .info2{
+     display: flex;
+     margin-top: 60px;
+ }
+
+ .titre2{
+    text-align: center;
+    flex: 1;
+ }
+
+ /*menu*/
+
+    .menu ul li {
+        list-style: none;
+        padding: 18px;
+    }
+    
+    .menu ul li a{
+        text-decoration: none;
+        color: black;
+        transition: all .3s;
+    }
+
+    .menu ul li a:hover{
+        color: #ff4e6a;
+    }
+
+    /*navbar*/
+
+    nav{
+        border-bottom: 1px solid grey;
+        margin-left: 260px;
+        display: flex;
+    }
+
+    nav input{
+        width: 400px;
+        height: 40px;
+        border-radius: 5px;
+        
+    }
+
+    .btn-search{
+        width: 400px;
+        height: 40px;
+        border-radius: 5px;
+    }
+    
+
+    .circle2{
+        
+        width:50px ;
+        height:50px ;
+        border-radius:50% ; 
+        border: 2px solid #ff4e6a;
+    }
